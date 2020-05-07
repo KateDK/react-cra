@@ -9,3 +9,4 @@ Remove the fruit from the array of fruits
 Log the message “I’m sorry, we’re all out. We have FRUITSLEFT left.”
 
  */
+ import fruitsArr from './foods';
