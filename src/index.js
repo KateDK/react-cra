@@ -11,8 +11,12 @@ Log the message “I’m sorry, we’re all out. We have FRUITSLEFT left.”
  */
 
  import fruitsArr from './foods';
- import {choice} from './helpers';
+ import {choice, remove} from './helpers';
 
 
- console.log(fruitsArr);
- console.log(choice(fruitsArr));
+const want = choice(fruitsArr);
+console.log(`I’d like one ${want}, please.`);
+console.log(`Here you go: ${want}`);
+console.log('Delicious! May I have another?');
+remove(fruitsArr,want);
+console.log(`I’m sorry, we’re all out. We have ${fruitsArr.length} left.`);
