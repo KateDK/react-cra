@@ -9,4 +9,10 @@ Remove the fruit from the array of fruits
 Log the message “I’m sorry, we’re all out. We have FRUITSLEFT left.”
 
  */
+
  import fruitsArr from './foods';
+ import {choice} from './helpers';
+
+
+ console.log(fruitsArr);
+ console.log(choice(fruitsArr));
