@@ -1,0 +1,3 @@
+/*
+this file should export array of fruits
+*/
